@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+	<info organisation="com.idfbins" module="selenium" status="integration"></info>
+	<dependencies>
+		<dependency org="org.seleniumhq.selenium" name="selenium-java" rev="3.6.0"/>
+    	<dependency org="org.seleniumhq.selenium" name="selenium-support" rev="3.6.0"/>
+    	<dependency org="org.seleniumhq.selenium" name="selenium-server" rev="3.6.0"/>
+    	<dependency org="org.seleniumhq.selenium" name="selenium-api" rev="3.6.0"/>
+    	<dependency org="org.seleniumhq.selenium" name="selenium-remote-driver" rev="3.6.0"/>
+    	<dependency org="org.seleniumhq.selenium" name="selenium-htmlunit-driver" rev="latest.integration"/>
+    	<dependency org="org.seleniumhq.selenium" name="selenium-firefox-driver" rev="3.6.0"/>
+    	<dependency org="org.seleniumhq.selenium" name="selenium-chrome-driver" rev="3.6.0"/>
+    	<dependency org="org.seleniumhq.selenium" name="selenium-ie-driver" rev="3.6.0"/>
+    	<dependency org="org.seleniumhq.selenium" name="selenium-safari-driver" rev="3.6.0"/>
+    	<dependency org="org.seleniumhq.selenium" name="selenium-iphone-driver" rev="latest.integration"/>
+    	<dependency org="org.seleniumhq.selenium" name="selenium-android-driver" rev="latest.integration"/>
+    	<dependency org="net.lightbody.bmp" name="browsermob-core" rev="2.1.5"/>
+    	<dependency org="org.apache.commons" name="commons-email" rev="1.5"/>	
+		<dependency org="commons-net" name="commons-net" rev="3.6"/>
+		<dependency org="org.testng" name="testng" rev="6.11" />
+    </dependencies>
+</ivy-module>
